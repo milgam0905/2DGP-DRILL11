@@ -188,4 +188,4 @@ class Boy:
         if group == 'boy:ball':
             self.ball_count += 1
         elif group == 'zombie:boy':
-            pass
+            game_framework.quit()
