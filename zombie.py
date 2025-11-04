@@ -64,4 +64,5 @@ class Zombie:
 
         if group == 'zombie:ball':
             self.size = 100
+            self.y = 100
 
